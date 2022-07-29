@@ -46,19 +46,19 @@ urbandictionary
 
 *━━━❰ Fun ❱━━━*
 
-fact, joke, quote, randomsticker, reaction```
+fact, joke, quote, randomsticker, reaction
 
 *━━━❰ General ❱━━━*
 
-```asuna, help, hi, info, mods, ping, profile, rank```
+help, hi, info, mods, ping, profile, rank
 
 *━━━❰ Media ❱━━━*
 
-```lyrics, play, spotify, yta, yts, ytv```
+lyrics, play, spotify, yta, yts, ytv
 
 *━━━❰ Moderation ❱━━━*
 
-```set```
+set
 
 *━━━❰ Utils ❱━━━*
 
