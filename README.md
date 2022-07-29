@@ -2,7 +2,7 @@
 
 <div align='center'>
 
-<h2> WhatsApp-bot </h2>
+<h2> Zerus-bot </h2>
   
 <a href='https://github.com/LuckyYam/Whatsapp-bot/releases'>
   
@@ -10,9 +10,9 @@
   
 </a>
   
-<a href='https://github.com/LuckyYam/Whatsapp-bot/blob/master/LICENSE'>
+<a href='https://github.com/Toshi-san001/Whatsapp-bot/blob/master/LICENSE'>
   
-<img src='https://img.shields.io/github/license/LuckyYam/WhatsApp-bot?color=%231e81b0&style=for-the-badge'>
+<img src='https://img.shields.io/github/license/Toshi-san001/WhatsApp-bot?color=%231e81b0&style=for-the-badge'>
   
 </a>
   
