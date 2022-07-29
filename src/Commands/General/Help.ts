@@ -27,7 +27,51 @@ export default class extends BaseCommand {
             for (const category of categories) {
                 const categoryCommands: string[] = []
                 const filteredCommands = commands.filter((command) => command.data.config.category === category)
-                text += `\n\n*━━━❰ ${this.client.utils.capitalize(category)} ❱━━━*\n\n`
+                text += `My prefix is - ${this.client.config.prefix}
+
+
+The usable commands are listed below.
+
+*━━━❰ Educative ❱━━━*
+
+biodata
+brainly
+calculator
+covid
+crypto
+define
+ip
+trivia
+urbandictionary
+
+*━━━❰ Fun ❱━━━*
+
+fact, joke, quote, randomsticker, reaction```
+
+*━━━❰ General ❱━━━*
+
+```asuna, help, hi, info, mods, ping, profile, rank```
+
+*━━━❰ Media ❱━━━*
+
+```lyrics, play, spotify, yta, yts, ytv```
+
+*━━━❰ Moderation ❱━━━*
+
+```set```
+
+*━━━❰ Utils ❱━━━*
+
+prettier, react, retrieve, sticker
+
+*━━━❰ Weeb ❱━━━*
+
+anime,
+character
+kitsune
+manga
+neko
+waifu`
                 filteredCommands.forEach((command) => categoryCommands.push(command.data.name))
                 text += `\`\`\`${categoryCommands.join(', ')}\`\`\``
             }
