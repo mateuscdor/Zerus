@@ -16,7 +16,7 @@ export default class extends BaseCommand {
                 command,
                 data
             })).filter((command) => command.data.config.category !== 'dev')
-            let text = `👋🏻 (💙ω💙) Konichiwa! *@${M.sender.jid.split('@')[0]}*, I'm ${
+            let text = `Konichiwa 👋🏻 (❤️ω❤️) *@${M.sender.jid.split('@')[0]}*, I'm ${
                 this.client.config.name
             }\nMy prefix is - "${this.client.config.prefix}"\n\nThe usable commands are listed below.`
             const categories: string[] = []
@@ -28,9 +28,6 @@ export default class extends BaseCommand {
                 const categoryCommands: string[] = []
                 const filteredCommands = commands.filter((command) => command.data.config.category === category)
                 text += `My prefix is - ${this.client.config.prefix}
-
-
-The usable commands are listed below.
 
 *━━━❰ Educative ❱━━━*
 
@@ -46,15 +43,29 @@ urbandictionary
 
 *━━━❰ Fun ❱━━━*
 
-fact, joke, quote, randomsticker, reaction
+fact
+joke
+quote
+randomsticker
+reaction
 
 *━━━❰ General ❱━━━*
 
-help, hi, info, mods, ping, profile, rank
+help hi
+Info
+mods
+ping
+profile
+rank
 
 *━━━❰ Media ❱━━━*
 
-lyrics, play, spotify, yta, yts, ytv
+lyrics
+play
+spotify
+yta
+yts
+ytv
 
 *━━━❰ Moderation ❱━━━*
 
@@ -62,16 +73,21 @@ set
 
 *━━━❰ Utils ❱━━━*
 
-prettier, react, retrieve, sticker
+prettier
+react
+retrieve
+sticker
 
 *━━━❰ Weeb ❱━━━*
 
-anime,
+anime
 character
 kitsune
 manga
 neko
-waifu`
+waifu
+
+━━━━━━━━━━━━━━━`
                 filteredCommands.forEach((command) => categoryCommands.push(command.data.name))
                 text += `\`\`\`${categoryCommands.join(', ')}\`\`\``
             }
